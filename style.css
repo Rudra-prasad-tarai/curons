@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #4deee3; /* Darkest color for the header */
+    background-color: #334443; /* Darkest color for the header */
     color: #FAF8F1; /* Light text for contrast */
     padding: 2rem 0;
     text-align: center;
@@ -73,4 +73,22 @@ a {
 
 a:hover {
     text-decoration: none; /* Cleaner hover effect */
+}
+
+/* --- Add this to the bottom of your style.css --- */
+
+.social-links {
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: #FAF8F1; /* Icon color */
+    margin: 0 15px; /* Spacing between icons */
+    font-size: 1.8rem; /* Icon size */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #FAEAB1; /* Icon color on hover (yellow accent) */
+    transform: translateY(-5px); /* Makes icon jump up slightly */
 }
