@@ -1,0 +1,76 @@
+body {
+    font-family: 'Georgia', serif; /* A more elegant font */
+    margin: 0;
+    background-color: #FAF8F1; /* Light cream background */
+    color: #334443; /* Dark green-gray for main text */
+}
+
+header {
+    background-color: #334443; /* Darkest color for the header */
+    color: #FAF8F1; /* Light text for contrast */
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 0.5rem;
+    color: #FAEAB1; /* Yellow accent for the subtitle */
+}
+
+nav {
+    background-color: #34656D; /* Muted teal for navigation */
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #FAEAB1;
+}
+
+nav a {
+    color: #FAF8F1;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto; /* Center the main content */
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    color: #34656D; /* Teal for section titles */
+    border-bottom: 2px solid #FAEAB1; /* Yellow accent underline */
+    padding-bottom: 0.5rem;
+}
+
+.project {
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-left: 5px solid #34656D; /* Teal accent border */
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Soft shadow for depth */
+}
+
+footer {
+    background-color: #334443; /* Darkest color for footer */
+    color: #FAF8F1;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+a {
+    color: #34656D; /* Teal for links */
+}
+
+a:hover {
+    text-decoration: none; /* Cleaner hover effect */
+}
