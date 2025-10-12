@@ -92,3 +92,19 @@ a:hover {
     color: #FAEAB1; /* Icon color on hover (yellow accent) */
     transform: translateY(-5px); /* Makes icon jump up slightly */
 }
+/* --- STICKY FOOTER CODE --- */
+/* This makes the main content area grow to push the footer down */
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
